@@ -1,0 +1,161 @@
+body {
+    background-color: #333; 
+    color: #fff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #803030;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.sidebar h2 {
+    color: rgb(255, 253, 253);
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+}
+
+.sidebar .user-info {
+    margin-bottom: 20px;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    text-decoration: underline;
+    overflow-wrap: break-word;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    text-decoration: underline;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+}
+
+.sidebar nav ul li {
+    margin: 10px 0;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    text-decoration: underline;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    background: rgba(19, 0, 0, 0.534);
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+.btn-logout {
+    background: rgb(126, 4, 4);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    text-decoration: underline;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+}
+
+.stat-item {
+    background-color: #555;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    text-decoration: underline;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #803030;
+    color: rgb(255, 253, 253);
+    margin-bottom: 20px;
+}
+
+.table {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.table h3 {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #803030;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table table th, .table table td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: left;
+}
+
+.table ul {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #666;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1%;
+}
+
+.table ul li {
+    background-color: #666;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}

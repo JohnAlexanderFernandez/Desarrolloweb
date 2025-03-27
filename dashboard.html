@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Inventario</title>
+    <link rel="stylesheet" href="styles2.css">
+    
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Inventario</h2>
+        <div class="user-info">
+            <p>Usuario</p>
+        </div>
+        <nav>
+            <ul>
+                
+                <li><a href="#">Panel de Control</a></li>
+                <li><a href="#">Categoría</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ventas</a></li>
+                <li><a href="#">Reporte de Ventas</a></li>
+            </ul>
+        </nav>
+        <button id="logoutButton" class="btn-logout">Cerrar Sesión</button>
+    </div>
+    <div class="main-content">
+        <div class="stats">
+            <div class="stat-item">
+                <h3>Categorias</h3>
+                <p>15</p>
+            </div>
+            <div class="stat-item">
+                <h3>Productos</h3>
+                <p>56</p>
+            </div>
+            <div class="stat-item">
+                <h3>Ventas</h3>
+                <p>156</p>
+            </div>
+        </div>
+        <div class="tables">
+            <div class="table">
+                <h3>Productos Más Vendidos</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Total vendido</th>
+                            <th>Cantidad total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Espada MS250</td>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Filtro de gasolina</td>
+                            <td>2</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Carburador</td>
+                            <td>2</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table">
+                <h3>Últimas Ventas</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Fecha</th>
+                            <th>Venta total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Espada MS250</td>
+                            <td>2017-06-16</td>
+                            <td>$100.00</td>
+                        </tr>
+                        <tr>
+                            <td>Carburador</td>
+                            <td>2017-06-16</td>
+                            <td>$80.00</td>
+                        </tr>
+                        <tr>
+                            <td>Filtro de gasolina</td>
+                            <td>2017-06-16</td>
+                            <td>$60.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table">
+                <h3>Productos Recientemente Añadidos</h3>
+                <ul>
+                    <li>Espada MS250 - $100</li>
+                    <li>Carburador - $80</li>
+                    <li>Filtro de gasolina - $60</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="logout.js"></script>
+</body>
+</html>
